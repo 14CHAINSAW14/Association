@@ -10,8 +10,89 @@ body {
 }
 
 header {
-    height: 100vh;
-    width: 100vw;
-    background-image: ;
-    background-size: cover;
+    display: flex;
+    align-items: center;
 }
+
+header img {
+    width: 150px;
+    
+}
+
+section.top-page {
+    background: url("../image/foret.jpg");
+    background-size: cover;
+    height: 60vh;
+}
+
+/* Menu de navigation */
+
+.navbar_header {
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    width: 700px;
+    margin-left: 200px;
+}
+
+.navbar_header li {
+    color: white;
+}
+
+.landing-page {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Mid-page {
+    margin-top: 100px;
+    margin-left: 325px;
+    width: 700px;
+    display: block;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    background-color: blue;
+    
+}
+
+.Introduction {
+    margin-bottom: 50px;
+}
+
+.Team {
+    margin-bottom: 50px;
+}
+
+.Team img{
+    height: 300px;
+    width: 400px;
+   padding-left: 150px;
+}
+
+.Actions {
+    margin-bottom: 100px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    background : url(../image/footer_background.jpg);
+}
+.navbar_footer {
+    /* font-size: large; */
+    display: flex;
+    width: 700px;
+    margin-left: 325px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+   
+}
+
+
+
