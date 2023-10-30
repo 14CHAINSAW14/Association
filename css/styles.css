@@ -1,11 +1,12 @@
+/* Cette page de style est celle de la page HTML correspondant D'accueil */
+
+
+/* Initialisation de la page */
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
-}
-
-body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -25,14 +26,14 @@ section.top-page {
     height: 60vh;
 }
 
-/* Menu de navigation */
+/* Menu de navigation header */
 
 .navbar_header {
     display: flex;
     justify-content: space-around;
     font-size: x-large;
     width: 700px;
-    margin-left: 200px;
+    margin-left: 450px;
 }
 
 .navbar_header li {
@@ -46,10 +47,10 @@ section.top-page {
     align-items: center;
     text-align: center;
 }
-
+/* Mise en style du corps de la page */
 .Mid-page {
     margin-top: 100px;
-    margin-left: 325px;
+    margin-left: 600px;
     width: 700px;
     display: block;
     justify-content: center;
@@ -78,21 +79,17 @@ section.top-page {
 }
 
 footer {
-    display: flex;
-    align-items: center;
     height: 20vh;
     background : url(../image/footer_background.jpg);
 }
+
+/* Menu de navigation footer */
 .navbar_footer {
-    /* font-size: large; */
     display: flex;
-    width: 700px;
-    margin-left: 325px;
     justify-content: space-around;
-    align-items: center;
+    align-content: center;
     background-color: aqua;
    
 }
-
 
 
