@@ -1,3 +1,5 @@
+/* Initialisation de la page en global */
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,6 +8,24 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+html{
+    background: url(../image/foret.jpg)
+}
+
+/* barre de navigation  */
+
+.navbar_header {
+    display: flex;
+    height: 15vh;
+    justify-content: space-between;
+    width: 700px;
+    margin-left: 595px ;
+    align-items: center;
+    font-size: x-large;
+    color: white;
+}
+
+/* Mise en page avec Grid */
 
 .container {
     display: grid;
@@ -13,7 +33,6 @@
     grid-auto-rows: (100px, auto);
     column-gap: 40px;
     row-gap: 40px;
-    /* background-color: grey; */
     
 }
 
@@ -48,22 +67,8 @@
     
 }
 
-.navbar_header {
-    display: flex;
-    height: 15vh;
-    /* background-color: red; */
-    justify-content: space-between;
-    width: 700px;
-    margin-left: 595px ;
-    align-items: center;
-    font-size: x-large;
-    color: white;
-}
 
-/* header{
-    background: url(../image/foret.jpg)
-} */
-
+/* Edit font page's body */
 h1 {
     color: white;
     margin-left: 300px;
@@ -71,9 +76,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-html{
-    background: url(../image/foret.jpg)
-}
+
 
 .container {
     color: white;
