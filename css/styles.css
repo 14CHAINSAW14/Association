@@ -54,14 +54,15 @@ section.top-page {
     width: 700px;
     display: block;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     align-items: center;
-    background-color: blue;
+    background-color: #DADADA;
     
 }
 
 .Introduction {
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .Team {
@@ -71,14 +72,19 @@ section.top-page {
 .Team img{
     height: 300px;
     width: 400px;
-   padding-left: 150px;
 }
 
 .Actions {
+    
     margin-bottom: 100px;
 }
 
+.Actions h4 {
+    text-align: start;
+}
 footer {
+    display: flex;
+    align-items: center;
     height: 20vh;
     background : url(../image/footer_background.jpg);
 }
@@ -86,10 +92,13 @@ footer {
 /* Menu de navigation footer */
 .navbar_footer {
     display: flex;
-    justify-content: space-around;
-    align-content: center;
-    background-color: aqua;
+    width: 1000px;
+    margin-left: 500px;
+    justify-content: space-between;
+    font-size: x-large;
    
 }
 
-
+a {
+    color: white;
+}

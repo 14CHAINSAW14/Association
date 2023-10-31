@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+header {
+    display: flex;
+    background-color: #DADADA;
+    height: 10vh;
+    align-items: center;
+    background: url(/image/foret.jpg);
+    
+
+}
+
+.navbar_header{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-left: 600px;
+    font-size: x-large;
+    color: white;
+}
+
+.formulaire {
+    color: white;
+    background: url(/image/foret.jpg);
+    width: 600px;
+    height: 400px;
+    border: solid;
+    margin-left: 650px;
+    margin-top: 150px;
+}
+
+a {
+    color: white;
+}

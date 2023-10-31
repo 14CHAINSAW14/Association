@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles4.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar_header">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="Nos_Meilleures_Ventes.html">Nos plantes</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+        </nav>
+    </header>
+    <section class="formulaire">
+        <form action="" method="post">
+            <div>
+                <label for="name">Nom :</label>
+                <input  id="name" type="text">
+            </div>
+            <div>
+                <label for="city">Sélectionnez votre ville :</label>
+                <select id="city" list="city">
+                    <optgroup label="Sud"></optgroup>
+                    <option value="Toulouse">Toulouse</option>
+                    <option value="Nice">Nice</option>
+                    <option value="Montélimar">Montélimar</option>
+                    <option value="Septfonds">Septfonds</option>
+                    <optgroup label="Nord"></optgroup>
+                    <option value="Cahors">Cahors</option>
+                    <option value="Paris">Paris</option>
+                    <option value="Brest">Brest</option>
+                </select>
+                
+            </div>
+            <div>
+                <label for="tel">Téléphone :</label>
+                <input  id="tel" type="tel">
+            </div>
+            <div>
+                <label for="email">Votre email : </label>
+                <input id="email" type="email">
+            </div>
+            <label for="commentaire">Votre commentaire</label>
+            <textarea name="commentaire" id="commentaire" cols="30" rows="10"></textarea>
+            <input type="submit" value="Valider">
+        </form>
+    </section>
+    
+</body>
+</html>
