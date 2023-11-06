@@ -56,7 +56,7 @@ section.top-page {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: #DADADA;
+    background-color: #DADADA cover;
     
 }
 
@@ -76,7 +76,9 @@ section.top-page {
 
 .Team img{
     height: 300px;
+    height: auto;
     width: 400px;
+    max-width: 100%;
 }
 
 .Actions {
@@ -132,3 +134,12 @@ a {
         
     }
 }
+
+@media  and  (max-width: 538px) {
+    * {
+        max-width: 100%;
+        height: auto;
+    }
+}
+    
+

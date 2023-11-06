@@ -16,7 +16,7 @@ header {
 
 }
 
-.navbar_header{
+.navbar_header {
     display: flex;
     justify-content: space-between;
     width: 700px;

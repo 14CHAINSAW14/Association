@@ -40,19 +40,19 @@ header {
     column-gap: 20px;
 }
 
-.img1{
+.img1 {
     height: 150px;
     grid-column: 2;
     grid-row: 1;
 }
 
-.img2{
+.img2 {
     height: 150px;
     grid-column: 2;
     grid-row: 2;
 }
 
-.img3{
+.img3 {
     height: 150px;
     grid-column: 2;
     grid-row: 3;
@@ -76,9 +76,9 @@ header {
     width: 500px;
 }
 
-a{
+a {
     color: white;
 }
-a:hover{
+a:hover {
     color: crimson;
 }
